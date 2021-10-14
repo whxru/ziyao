@@ -36,6 +36,9 @@ div.container#profile span {
     div.container#profile span, h2, h3 {
         margin-bottom: 5px;
     }
+    div.container#profile * {
+        text-align: center;
+    }
 }
 
 div.container {
