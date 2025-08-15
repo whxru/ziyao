@@ -1,58 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Ziyao Huang</title>
-    <!-- <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" /> -->
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Academic homepage of Ziyao Huang – Postdoctoral Fellow at City University of Hong Kong. Research: information freshness, wireless networking, RL, algorithms." />
+  <title>Ziyao Huang — Academic Homepage</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="container" id="profile">
-        <img src="photo.jpg" height="300" alt="">
-        <span>
-            <h2>Ziyao Huang (黄子尧)</h2>
-            <h2></h2>
-            <h2></h2>
-            <h2></h2>
-            <h3>Doctor</h3>
-            <h3>City University of Hong Kong</h3>
-            <h3>Department of Computer Science</h3>
-            <h2></h2>
-            <h2></h2>
-            <p>Room 21A, Montery Plaza</p>
-            <p>seuhuangziyao@outlook.com</p>
-            <p><a href="http://github.com/whxru/" target="_blank" rel="Github">[My Github Page]</a></p>
-        </span>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="skip-link" href="#content">Skip to content</a>
+      <h1 class="visually-hidden">Ziyao Huang</h1>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#bio">Bio</a>
+        <a href="#publications">Publications</a>
+        <a href="#awards">Awards</a>
+        <a href="http://github.com/whxru/" target="_blank" rel="noopener">GitHub</a>
+      </nav>
     </div>
+  </header>
 
-    <div class="container">
-        <h3 class="subtitle">Bio</h3>
-        <span class="content">
-            <p>I received my bachelor's degree from the School of Computer Science and Technology at Southeast University in 2018 and my doctorate from the School of Computer Science and Technology at Southeast University and the Department of Computer Science at City University of Hong Kong in 2024. My advisor and co-advisor are <a target="blank" href="https://cse.seu.edu.cn/2019/0103/c23024a257230/page.htm">Prof. Weiwei Wu</a> and <a target="blank" href="https://www.cs.cityu.edu.hk/~jianwang/">Prof. Jianping Wang</a>. I am now a postdoc fellow at the City University of Hong Kong. My research interests include information freshness, wireless networking, reinforcement learning, and algorithm design.</p>
-        </span>
-    </div>
+  <main id="content" class="wrap">
+    <!-- Profile -->
+    <section id="profile" class="card profile" aria-labelledby="profile-title">
+      <div class="profile-header">
+        <h2 id="profile-title" class="section-title">Profile</h2>
+      </div>
+      <div class="profile-body">
+        <figure class="avatar">
+          <img src="photo.jpg" alt="Portrait of Ziyao Huang" />
+        </figure>
+        <div class="profile-meta">
+          <h3 class="name">Ziyao&nbsp;Huang <span class="name-alt">(黄子尧)</span></h3>
+          <p class="role">Postdoctoral Fellow</p>
+          <p class="affil">
+            Department of Computer Science<br />
+            City University of Hong Kong
+          </p>
+          <ul class="contact">
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6v12H4V6l8 5 8-5zM4 6l8 5 8-5" fill="currentColor"/></svg>
+              <a href="mailto:seuhuangziyao@outlook.com">seuhuangziyao@outlook.com</a>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 017 7c0 5.25-7 13-7 13S5 14.25 5 9a7 7 0 017-7zm0 9a2 2 0 100-4 2 2 0 000 4z" fill="currentColor"/></svg>
+              Room 21A, Montery Plaza
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 7l4-3 4 3v10c0 1.1-.9 2-2 2H9c-1.1 0-2-.9-2-2V7z" fill="currentColor"/></svg>
+              <a href="http://github.com/whxru/" target="_blank" rel="noopener">GitHub /whxru</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-    <div class="container">
-        <h3 class="subtitle">Publications</h3>
-        <span class="content">
-            <p class="paper"><em>Ziyao Huang</em>, Weiwei Wu, Kui Wu, Guanyu Gao, Jianping Wang. Minimizing Age of Semantic Information for Analytics-Oriented Video Streaming Systems. <i>IEEE Transactions on Mobile Computing</i>. 2025. </p>
-            <p class="paper"><em>Ziyao Huang</em>, Weiwei Wu, Vincent Chau, Kui Wu, Xiang Liu, and Jianping Wang. Minimizing Age of Event in Artificial Intelligence of Things. <i>ACM Transactions on Sensor Networks</i>. 2025. </p>
-            <p class="paper"><em>Ziyao Huang</em>, Weiwei Wu, Kui Wu, Hang Yuan, Chenchen Fu, Feng Shan, Jianping Wang, and Junzhou Luo. LI2: A New Learning-based Approach to Timely Monitoring of Points-of-Interest with UAV. <i>IEEE Transactions on Mobile Computing</i>. 2024.</p>
-            <p class="paper"><em>Ziyao Huang</em>, Weiwei Wu, Chenchen Fu, Vincent Chau, Xiang Liu, Jianping Wang, and Junzhou Luo. AoI-Guaranteed Bandit: Information Gathering over Unreliable Channels. <i>IEEE Transactions on Mobile Computing</i>. 2024.</p>
-            <p class="paper"><em>Ziyao Huang</em>, Weiwei Wu, Chenchen Fu, Xiang Liu, Feng Shan, Jianping Wang, and Xueyong Xu. Communication-Topology Preserving Motion Planning: Enabling Static Routing in UAV Networks. <i>ACM Transactions on Sensor Networks. 2023. </p>
-            <p class="paper"><em>Ziyao Huang</em>, Weiwei Wu, Feng Shan, Yuxin Bian, Kejie Lu, Zhenjiang Li, Jianping Wang, and Jin Wang. 2020. CoUAS: Enable Cooperation for Unmanned Aerial Systems. <i>ACM Transactions on Sensor Networks.</i> 16, 3, Article 24 (August 2020), 19 pages. DOI:https://doi.org/10.1145/3388323. <a target="blank" href="https://github.com/whxru/CoUAS" >[CODE]</a> <a target="blank" href="https://www.youtube.com/watch?v=FC7hE3gI3ck">[DEMO]</a> </p>
-            <p class="paper"><em>Ziyao Huang</em>, Weiwei Wu, Feng Shan, Yuxin Bian,  Zhenjiang Li, Jianping Wang, and Jin Wang. 2019. CoUAS: A Cooperative UAV Fleet Control and Monitoring Platform. <i>2019 IEEE Globecom Workshops (GC Wkshps).</i> IEEE, 2019.</p>
-        </span>
-    </div>
+    <!-- Bio -->
+    <section id="bio" class="card" aria-labelledby="bio-title">
+      <h2 id="bio-title" class="section-title">Bio</h2>
+      <p>
+        I received my bachelor's degree from the School of Computer Science and Technology at Southeast University in 2018 and my doctorate from the School of Computer Science and Technology at Southeast University and the Department of Computer Science at City University of Hong Kong in 2024. My advisor and co-advisor are
+        <a href="https://cse.seu.edu.cn/2019/0103/c23024a257230/page.htm" target="_blank" rel="noopener">Prof. Weiwei Wu</a>
+        and
+        <a href="https://www.cs.cityu.edu.hk/~jianwang/" target="_blank" rel="noopener">Prof. Jianping Wang</a>.
+        I am now a postdoc fellow at the City University of Hong Kong. My research interests include information freshness, wireless networking, reinforcement learning, and algorithm design.
+      </p>
+    </section>
 
-    <div class="container">
-        <h3 class="subtitle">Awards</h3>
-        <span class="content">
-            <p class="award">Huawei Scholarship, 2018.</p>
-            <p class="award">Outstanding Graduation Project (Thesis) for Undergraduate Students, Southeast University, 2018.</p>
-        </span>
+    <!-- Publications -->
+    <section id="publications" class="card" aria-labelledby="pub-title">
+      <h2 id="pub-title" class="section-title">Publications</h2>
+      <ol class="pub-list">
+        <li><em>Ziyao Huang</em>, Weiwei Wu, Kui Wu, Guanyu Gao, Jianping Wang. “Minimizing Age of Semantic Information for Analytics-Oriented Video Streaming Systems.” <i>IEEE Transactions on Mobile Computing</i>, 2025.</li>
+        <li><em>Ziyao Huang</em>, Weiwei Wu, Vincent Chau, Kui Wu, Xiang Liu, and Jianping Wang. “Minimizing Age of Event in Artificial Intelligence of Things.” <i>ACM Transactions on Sensor Networks</i>, 2025.</li>
+        <li><em>Ziyao Huang</em>, Weiwei Wu, Kui Wu, Hang Yuan, Chenchen Fu, Feng Shan, Jianping Wang, and Junzhou Luo. “LI2: A New Learning-based Approach to Timely Monitoring of Points-of-Interest with UAV.” <i>IEEE Transactions on Mobile Computing</i>, 2024.</li>
+        <li><em>Ziyao Huang</em>, Weiwei Wu, Chenchen Fu, Vincent Chau, Xiang Liu, Jianping Wang, and Junzhou Luo. “AoI-Guaranteed Bandit: Information Gathering over Unreliable Channels.” <i>IEEE Transactions on Mobile Computing</i>, 2024.</li>
+        <li><em>Ziyao Huang</em>, Weiwei Wu, Chenchen Fu, Xiang Liu, Feng Shan, Jianping Wang, and Xueyong Xu. “Communication-Topology Preserving Motion Planning: Enabling Static Routing in UAV Networks.” <i>ACM Transactions on Sensor Networks</i>, 2023.</li>
+        <li><em>Ziyao Huang</em>, Weiwei Wu, Feng Shan, Yuxin Bian, Kejie Lu, Zhenjiang Li, Jianping Wang, and Jin Wang. “CoUAS: Enable Cooperation for Unmanned Aerial Systems.” <i>ACM Transactions on Sensor Networks</i> 16(3), Article 24, 2020. <a href="https://github.com/whxru/CoUAS" target="_blank" rel="noopener">[Code]</a> <a href="https://www.youtube.com/watch?v=FC7hE3gI3ck" target="_blank" rel="noopener">[Demo]</a></li>
+        <li><em>Ziyao Huang</em>, Weiwei Wu, Feng Shan, Yuxin Bian, Zhenjiang Li, Jianping Wang, and Jin Wang. “CoUAS: A Cooperative UAV Fleet Control and Monitoring Platform.” <i>2019 IEEE Globecom Workshops (GC Wkshps)</i>, 2019.</li>
+      </ol>
+    </section>
+
+    <!-- Awards -->
+    <section id="awards" class="card" aria-labelledby="awards-title">
+      <h2 id="awards-title" class="section-title">Awards</h2>
+      <ul class="award-list">
+        <li>Huawei Scholarship, 2018.</li>
+        <li>Outstanding Graduation Project (Thesis) for Undergraduate Students, Southeast University, 2018.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <small>© <span id="year"></span> Ziyao Huang</small>
     </div>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
 </body>
 </html>
