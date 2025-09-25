@@ -150,6 +150,18 @@ img { max-width: 100%; height: auto; display: block; }
   height: 18px;
 }
 
+sup.corresp {
+  font-size: 0.75em;
+  color: var(--brand);
+  font-weight: 700;
+}
+
+.pub-note {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
 p { margin: 0 0 12px; }
 ol, ul { margin: 0; padding-left: 1.2rem; }
 .pub-list { display: grid; gap: 10px; }
