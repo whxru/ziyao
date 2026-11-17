@@ -218,7 +218,7 @@ section { scroll-margin-top: 92px; }
 .avatar img {
   position: relative;
   width: 100%;
-  aspect-ratio: 1;
+  aspect-ratio: 4 / 5;
   border-radius: 22px;
   object-fit: cover;
   box-shadow: var(--shadow);
